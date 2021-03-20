@@ -9,9 +9,6 @@ api = tweepy.API(auth,wait_on_rate_limit=True)
 
 
 def get_raw(userID): 
-    userID = "ArunimaKhunteta"
-
-
     tweets = api.user_timeline(screen_name=userID, 
                             count=200,
                             include_rts = False,
