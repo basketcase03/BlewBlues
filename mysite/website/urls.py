@@ -3,4 +3,5 @@ from website import views
 
 urlpatterns = [
     path('', views.home, name='home'),
+    path('res/', views.result, name='result'),
 ]
